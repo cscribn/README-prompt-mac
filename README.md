@@ -6,11 +6,26 @@ Instructions on how to make your Mac OS prompts to look like the following.
 
 ## Homebrew
 
-Install via Zsh
+Install via default shell
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew tap homebrew/cask-versions
+```
+
+## Zsh
+
+Install
+
+```sh
+brew install zsh || brew upgrade zsh
+rm -rf ~/.config/zsh
+
+git clone https://github.com/cscribn/config-zsh.git  ~/.config/zsh
+
+cp ~/.config/zsh/zshrc-mac ~/.zshrc
+rm -rf ~/.zsh/zsh-autosuggestions
+rm -rf ~/.zsh/zsh-syntax-highlighting
 ```
 
 Note: Perform remaining steps using Zsh unless otherwise stated.
@@ -40,21 +55,6 @@ brew install brew install jandedobbeleer/oh-my-posh/oh-my-posh || brew upgrade b
 rm -rf ~/.config/oh-my-posh1
 
 git clone https://github.com/cscribn/config-oh-my-posh.git  ~/.config/oh-my-posh
-```
-
-## Zsh
-
-Install
-
-```sh
-brew install zsh || brew upgrade zsh
-rm -rf ~/.config/zsh
-
-git clone https://github.com/cscribn/config-zsh.git  ~/.config/zsh
-
-cp ~/.config/zsh/zshrc-mac ~/.zshrc
-rm -rf ~/.zsh/zsh-autosuggestions
-rm -rf ~/.zsh/zsh-syntax-highlighting
 ```
 
 ## PowerShell Core
