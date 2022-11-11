@@ -36,8 +36,8 @@ brew install --cask font-meslo-lg-nerd-font || brew upgrade --cask font-meslo-lg
 Install
 
 ```sh
-brew install oh-my-posh || brew upgrade oh-my-posh
-rm -rf ~/.config/oh-my-posh
+brew install brew install jandedobbeleer/oh-my-posh/oh-my-posh || brew upgrade brew install jandedobbeleer/oh-my-posh/oh-my-posh
+rm -rf ~/.config/oh-my-posh1
 
 git clone https://github.com/cscribn/config-oh-my-posh.git  ~/.config/oh-my-posh
 ```
@@ -53,7 +53,6 @@ rm -rf ~/.config/zsh
 git clone https://github.com/cscribn/config-zsh.git  ~/.config/zsh
 
 cp ~/.config/zsh/zshrc-mac ~/.zshrc
-rm -rf ~/.zsh/zsh-autocomplete
 rm -rf ~/.zsh/zsh-autosuggestions
 rm -rf ~/.zsh/zsh-syntax-highlighting
 ```
