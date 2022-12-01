@@ -19,13 +19,10 @@ Install
 
 ```sh
 brew install zsh || brew upgrade zsh
-rm -rf ~/.config/zsh
 
 git clone https://github.com/cscribn/config-zsh.git  ~/.config/zsh
 
 cp ~/.config/zsh/zshrc-mac ~/.zshrc
-rm -rf ~/.zsh/zsh-autosuggestions
-rm -rf ~/.zsh/zsh-syntax-highlighting
 ```
 
 Note: Perform remaining steps using Zsh unless otherwise stated.
@@ -52,7 +49,6 @@ Install
 
 ```sh
 brew install brew install jandedobbeleer/oh-my-posh/oh-my-posh || brew upgrade brew install jandedobbeleer/oh-my-posh/oh-my-posh
-rm -rf ~/.config/oh-my-posh1
 
 git clone https://github.com/cscribn/config-oh-my-posh.git  ~/.config/oh-my-posh
 ```
