@@ -13,6 +13,14 @@ Install via default shell
 brew tap homebrew/cask-versions
 ```
 
+## Lsd
+
+Install
+
+```sh
+brew install lsd || brew upgrade lsd
+```
+
 ## Zsh
 
 Install
