@@ -1,6 +1,6 @@
 # README-prompt-mac
 
-Instructions on how to make your Mac OS prompts to look like the following.
+Instructions on how to make your Mac OS prompts to look like the screenshot.
 
 ![prompt](./images/prompt.png)
 
