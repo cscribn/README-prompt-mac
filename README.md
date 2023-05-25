@@ -72,9 +72,9 @@ brew install --cask powershell || brew upgrade --cask powershell
 Install modules and profile via PowerShell
 
 ```pwsh
-Install-Module -Name Terminal-Icons -Repository PSGallery
 Install-Module posh-git -Force
 Install-Module PSReadLine -AllowPrerelease -Force
+Install-Module -Name Terminal-Icons -Repository PSGallery
 
 curl -Lo "~/.config/powershell/Microsoft.PowerShell_profile.ps1" https://raw.githubusercontent.com/cscribn/config-misc/main/powershell-core/Microsoft.PowerShell_profile.ps1
 ```
@@ -106,6 +106,6 @@ brew install --cask visual-studio-code || brew upgrade --cask visual-studio-code
 Edit settings.json
 
 ```json
-    "terminal.integrated.fontFamily": "MeslowLGS NF",
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
     "terminal.integrated.fontSize": 13,
 ```
